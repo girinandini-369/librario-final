@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Dashboard - Librario</title>
+  <link rel="stylesheet" href="css/dashboard-admin.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>📚 Librario Admin</h2>
+    <ul>
+      <li><a href="dashboard-admin.html" class="active">Dashboard</a></li>
+      <li><a href="add-book.html">Add Book</a></li>
+      <li><a href="add-librarian.html">Add Librarian</a></li>
+      <li><a href="payments-admin.html">Payment User</a></li>
+      <li><a href="view-books.html">View Books</a></li>
+      <li><a href="view-members.html">View Members</a></li>
+      <li><a href="members.html">Members</a></li>
+      <li><a href="overdue-books.html">Overdue Books</a></li>
+      <li><a href="login.html" id="logoutBtn">Logout</a></li>
+    </ul>
+  </div>
+
+  <!-- Main content -->
+  <div class="main-content">
+    <h1>👋 Welcome, Admin</h1>
+    <div id="dashboardError" style="color: red; margin-bottom: 15px;"></div>
+
+    <!-- Summary cards -->
+    <div class="summary-cards">
+      <div class="card card-blue">
+        <h3>Total Books</h3>
+        <p id="totalBooks">0</p>
+      </div>
+      <div class="card card-green">
+        <h3>Total Users</h3>
+        <p id="totalUsers">0</p>
+      </div>
+      <div class="card card-orange">
+        <h3>Books Borrowed</h3>
+        <p id="booksBorrowed">0</p>
+      </div>
+      <div class="card card-red">
+        <h3>Active Borrow Records</h3>
+        <p id="activeBorrowRecords">0</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/dashboard-admin.js"></script>
+</body>
+</html>

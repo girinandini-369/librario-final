@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Librarian Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard-librarian.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>📚 Librario Librarian</h2>
+        <ul>
+            <li><a href="dashboard-librarian.html">Dashboard</a></li>
+            <li><a href="manage-books.html">Manage Books</a></li>
+            <li><a href="pending-requests.html">Borrow Requests</a></li>
+            <li><a href="borrowed-books.html">Borrowed Books</a></li>
+            <li><a href="overdue-books.html">Overdue Books</a></li>
+            <li><a href="payments-librarian.html">Payments</a></li>
+
+            <!-- 🔹 New Menu Item -->
+            <li><a href="members.html">Manage Members</a></li>
+
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <h1>📊 Librarian Dashboard</h1>
+        <div class="summary-cards">
+            <div class="card card-blue">
+                <h3>Total Books</h3>
+                <p id="totalBooks">0</p>
+            </div>
+            <div class="card card-green">
+                <h3>Total Users</h3>
+                <p id="totalUsers">0</p>
+            </div>
+            <div class="card card-orange">
+                <h3>Books Borrowed</h3>
+                <p id="booksBorrowed">0</p>
+            </div>
+            <div class="card card-red">
+                <h3>Pending Requests</h3>
+                <p id="pendingRequests">0</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/dashboard-librarian.js"></script>
+</body>
+</html>

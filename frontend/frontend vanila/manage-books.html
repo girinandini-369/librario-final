@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Books - Library</title>
+    <link rel="stylesheet" href="css/manage-books.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <h1>📖 Manage Books</h1>
+</header>
+
+<main class="container">
+    <!-- Add New Book Form -->
+    <section class="card add-book-form">
+        <h2>Add New Book</h2>
+        <form id="addBookForm">
+            <div class="form-row">
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="author" placeholder="Author" required>
+            </div>
+            <div class="form-row">
+                <input type="text" id="genre" placeholder="Genre">
+                <input type="text" id="publisher" placeholder="Publisher">
+            </div>
+            <div class="form-row">
+                <input type="number" id="year" placeholder="Publication Year">
+                <input type="text" id="isbn" placeholder="ISBN">
+            </div>
+            <div class="form-row">
+                <input type="number" id="totalCopies" placeholder="Total Copies" min="0">
+                <input type="number" id="availableCopies" placeholder="Available Copies" min="0">
+            </div>
+            <div class="form-row">
+                <input type="text" id="bookshelf" placeholder="Shelf Location">
+            </div>
+            <button type="submit">Add Book</button>
+        </form>
+    </section>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="🔍 Search by title, author, genre..." onkeyup="searchBooks()">
+    </div>
+
+    <!-- Existing Books Table -->
+    <section class="card existing-books">
+        <h2>Existing Books</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Publisher</th>
+                <th>Year</th>
+                <th>Total Copies</th>
+                <th>Available Copies</th>
+                <th>Shelf</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody id="booksTableBody">
+            <!-- Populated by JS -->
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<!-- Edit Book Modal -->
+<div id="editModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Edit Book</h2>
+        <form id="editBookForm">
+            <input type="hidden" id="editId">
+            <div class="form-row">
+                <input type="text" id="editTitle" placeholder="Title" required>
+                <input type="text" id="editAuthor" placeholder="Author" required>
+            </div>
+            <div class="form-row">
+                <input type="text" id="editGenre" placeholder="Genre">
+                <input type="text" id="editPublisher" placeholder="Publisher">
+            </div>
+            <div class="form-row">
+                <input type="number" id="editYear" placeholder="Publication Year">
+                <input type="text" id="editIsbn" placeholder="ISBN">
+            </div>
+            <div class="form-row">
+                <input type="number" id="editTotalCopies" placeholder="Total Copies" min="0">
+                <input type="number" id="editAvailableCopies" placeholder="Available Copies" min="0">
+            </div>
+            <div class="form-row">
+                <input type="text" id="editBookshelf" placeholder="Shelf Location">
+            </div>
+            <button type="submit">Update Book</button>
+        </form>
+    </div>
+</div>
+
+<script src="js/manage-books.js"></script>
+</body>
+</html>

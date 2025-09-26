@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>View Members</title>
+  <link rel="stylesheet" href="css/view-members.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">📚 Library Members</h1>
+
+    <!-- Search bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="🔍 Search by name or email..." />
+    </div>
+
+    <!-- Members table -->
+    <div class="table-container">
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Membership</th>
+            <th>Status</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+          </tr>
+        </thead>
+        <tbody id="members-table-body">
+          <tr><td colspan="6">Loading members...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="js/view-members.js"></script>
+</body>
+</html>

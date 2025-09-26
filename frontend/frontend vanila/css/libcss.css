@@ -1,0 +1,83 @@
+/* General Layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #3f51b5;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+h2 {
+  margin: 1rem;
+  color: #3f51b5;
+}
+
+/* Table Styles */
+.table-container {
+  margin: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background: #3f51b5;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 2px;
+}
+
+.btn-accept {
+  background: #4caf50;
+  color: white;
+}
+
+.btn-reject {
+  background: #f44336;
+  color: white;
+}
+
+.btn-return {
+  background: #2196f3;
+  color: white;
+}
+
+.btn-paid {
+  background: #ff9800;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}

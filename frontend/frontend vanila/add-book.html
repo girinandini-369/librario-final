@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Book</title>
+    <link rel="stylesheet" href="css/add-book.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add New Book</h1>
+        <form id="bookForm">
+            <input type="text" id="title" placeholder="Book Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <input type="text" id="genre" placeholder="Genre" required>
+            <input type="text" id="publisher" placeholder="Publisher" required>
+            <input type="number" id="year" placeholder="Year" required>
+            <input type="text" id="isbn" placeholder="ISBN" required>
+            <input type="number" id="totalCopies" placeholder="Total Copies" required>
+            <input type="text" id="bookshelf" placeholder="Bookshelf Location" required>
+            <button type="submit">Add Book</button>
+        </form>
+        <p id="message" style="text-align:center; margin-top:15px;"></p>
+    </div>
+
+    <script src="js/add-book.js"></script>
+</body>
+</html>

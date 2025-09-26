@@ -1,0 +1,148 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafb;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+#searchInput {
+  padding: 10px 15px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#searchInput:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 6px rgba(52, 152, 219, 0.4);
+}
+
+.form-container {
+  background: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.form-container h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+#addMemberForm {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#addMemberForm input,
+#addMemberForm select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex: 1;
+}
+
+#addMemberForm button {
+  background: #3498db;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#addMemberForm button:hover {
+  background: #2980b9;
+}
+
+.table-container {
+  overflow-x: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.styled-table thead {
+  background: #3498db;
+  color: white;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 14px 18px;
+  text-align: left;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s;
+}
+
+.styled-table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.action-btn {
+  margin-right: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.edit-btn {
+  background: #f39c12;
+  color: white;
+}
+.edit-btn:hover {
+  background: #d68910;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.assign-btn {
+  background: #2ecc71;
+  color: white;
+}
+.assign-btn:hover {
+  background: #27ae60;
+}

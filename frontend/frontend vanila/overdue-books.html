@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Transactions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    th {
+      background: #f4f4f4;
+    }
+
+    /* Buttons */
+    .btn-return {
+      background-color: #28a745; /* Green */
+      color: white;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn-return:hover {
+      background-color: #218838;
+    }
+
+    .btn-fine {
+      background-color: #dc3545; /* Red */
+      color: white;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+
+    .btn-fine:hover {
+      background-color: #c82333;
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 Transactions</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Book Title</th>
+        <th>Member</th>
+        <th>Issue Date</th>
+        <th>Due Date</th>
+        <th>Return Date</th>
+        <th>Fine</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="transactions-body">
+      <!-- Transactions will load here -->
+    </tbody>
+  </table>
+
+  <script src="js/overdue-books.js"></script>
+</body>
+</html>

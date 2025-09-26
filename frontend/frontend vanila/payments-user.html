@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Payments - Librario</title>
+  <link rel="stylesheet" href="css/payments-user.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Payments & Membership</h1>
+        <div class="sub">Pay fines for overdue books · Upgrade membership to PREMIUM</div>
+      </div>
+      <div class="sub">You are signed in as <strong id="member-email">member@example.com</strong></div>
+    </header>
+
+    <main>
+      <div class="card">
+        <div class="section-title">
+          <h2>Overdue Books</h2>
+          <div class="small">Pay fines to clear dues</div>
+        </div>
+
+        <div id="overdueContainer" class="overdue-list">
+          <div class="empty" id="overdueEmpty">Loading overdue items…</div>
+        </div>
+      </div>
+
+      <aside class="right-col">
+        <div class="card small">
+          <div class="member-info">
+            <div class="avatar" id="avatar">U</div>
+            <div>
+              <div id="memberName" style="font-weight:700">User</div>
+              <div class="muted" id="memberInfo">Member ID: <span id="memberIdText">-</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">
+            <h2>Membership</h2>
+            <div class="small">Upgrade to PREMIUM for extra benefits</div>
+          </div>
+
+          <div class="upgrade" style="margin-bottom:12px">
+            <div>
+              <div style="font-weight:700">Current: <span id="membershipType">BASIC</span></div>
+              <div class="muted" style="font-size:13px">Price: ₹500 / year</div>
+            </div>
+            <div>
+              <button id="upgradeBtn" class="btn-pay">Upgrade to PREMIUM</button>
+            </div>
+          </div>
+
+          <div style="margin-top:8px">
+            <button id="dummyUpgradeBtn" class="btn-dummy">Upgrade</button>
+            <div class="muted" style="margin-top:8px; font-size:13px"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">
+            <h2>Recent Payments</h2>
+            <div class="small">Latest receipts</div>
+          </div>
+
+          <div id="paymentsList" class="payments-list">
+            <div class="empty">Loading payments…</div>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <div class="toast" id="toastRoot" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="js/payments-user.js"></script>
+</body>
+</html>

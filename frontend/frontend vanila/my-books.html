@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Books</title>
+  <link rel="stylesheet" href="css/my-books.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>📚 My Library</h1>
+    
+    <div class="tabs">
+      <button class="tab-button active" data-tab="borrowed">Borrowed</button>
+
+      <button class="tab-button" data-tab="pending">Pending Requests</button>
+      <button class="tab-button" data-tab="returned">Returned</button>
+    </div>
+
+    <div id="borrowed" class="tab-content active">
+      <h2>Borrowed Books</h2>
+      <div class="card-container" id="borrowedList">Loading...</div>
+    </div>
+
+   
+
+    <div id="pending" class="tab-content">
+      <h2>Pending Requests</h2>
+      <div class="card-container" id="pendingList">Loading...</div>
+    </div>
+
+    <div id="returned" class="tab-content">
+      <h2>Returned Books</h2>
+      <div class="card-container" id="returnedList">Loading...</div>
+    </div>
+  </div>
+
+  <script src="js/my-books.js"></script>
+</body>
+</html>

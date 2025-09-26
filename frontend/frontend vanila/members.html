@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manage Members</title>
+  <link rel="stylesheet" href="css/members.css">
+</head>
+<body>
+  <header>
+    <h1>📚 Manage Members</h1>
+  </header>
+
+  <main>
+    <!-- Add Member Form -->
+    <section class="card">
+      <h2>Add New Member</h2>
+      <form id="addMemberForm">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter member name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter member email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="plan">Membership Plan (optional)</label>
+          <input type="text" id="plan" name="plan" placeholder="e.g., Gold, Silver">
+        </div>
+
+        <button type="submit" class="btn">➕ Add Member</button>
+      </form>
+    </section>
+
+    <!-- Members Table -->
+    <section class="card">
+      <h2>All Members</h2>
+      <table id="membersTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Member Name</th>
+            <th>Email</th>
+            <th>Status</th>
+            <th>Plan</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Filled by JS -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Librario - Manage your library smartly</p>
+  </footer>
+
+  <script src="js/members.js"></script>
+</body>
+</html>

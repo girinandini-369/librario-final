@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Member Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard-user.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>📚 Librario Member</h2>
+    <ul>
+      <li><a href="dashboard-user.html" class="active">Available Books</a></li>
+      <li><a href="my-books.html">My Books</a></li>
+      <li><a href="payments-user.html">Payments</a></li>
+      <li><a href="login.html" onclick="logout()">Logout</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <h1>📖 Available Books</h1>
+    <div class="book-grid" id="bookGrid">
+      <!-- Books load here -->
+    </div>
+  </div>
+
+  <script src="js/dashboard-user.js"></script>
+</body>
+</html>
