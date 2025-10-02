@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86318023-b392-4f17-ba76-dbb74fe65b80" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/config/MailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/AdminBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/AdminDashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/AdminMemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/BorrowRequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/LibrarianBooksController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/LibrarianController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/LibrarianDashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/LibrarianMemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/ReminderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/TransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/UserDashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/AdminSummaryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/BorrowRecordDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/CreateLibrarianRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/CreatePaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/DummyPayRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/IssueRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/LibrarianRegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/MemberRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/MembershipPlanRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/MembershipUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/PaymentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/RenewRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/TransactionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/VerifyPaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/BorrowRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/Fine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/repository/BorrowRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/repository/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/repository/TransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/AdminDashboardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/BorrowRequestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/DashboardUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/LibrarianDashboardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/LibrarianService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/MembershipService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/ScheduledNotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/LibrarioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/LibrarioApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/controller/BorrowRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/BorrowRecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/controller/MembershipPlanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/controller/OtpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/OtpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/controller/OverdueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/OverdueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/controller/PenaltyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/controller/PenaltyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/dto/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/AuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/dto/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/dto/MemberDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/MemberDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/dto/MembershipPlanDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/BorrowRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/dto/PenaltyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/PenaltyRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/dto/ReturnRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/dto/ReturnRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/entity/BorrowRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/BorrowRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/entity/MembershipPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/MembershipPlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/entity/OtpCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/OtpCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/entity/Penalty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/Penalty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/repository/BorrowRecordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/repository/BorrowRecordRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/repository/MembershipPlanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/repository/MembershipPlanRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/repository/OtpRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/repository/OtpRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/repository/PenaltyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/repository/PenaltyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/service/BorrowRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/BorrowRecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/service/CustomerUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/CustomerUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/service/MembershipPlanService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/service/OtpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/OtpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/service/OverdueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/OverdueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/service/PenaltyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/PenaltyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/librario/service/spec/BookSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/librario/service/spec/BookSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar!/com/zaxxer/hikari/HikariDataSource.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/6.2.3/spring-security-web-6.2.3.jar!/org/springframework/security/web/DefaultSecurityFilterChain.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="31wgPpfotdZvubheZctBTk3fHKT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Librario.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LibrarioApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/OneDrive/Desktop/lbm/librario/librario/src/main/java/com/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Librario" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.librario.LibrarioApplication" />
+      <module name="librario" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86318023-b392-4f17-ba76-dbb74fe65b80" name="Changes" comment="" />
+      <created>1756440529870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756440529870</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
